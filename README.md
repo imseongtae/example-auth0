@@ -1,6 +1,8 @@
 # Nuxt AuthO
 
-
+## table of contents
+1. install
+1. ESLint and Prettier
 
 ## install 
 
@@ -28,4 +30,11 @@ npm i @nuxtjs/auth @nuxtjs/axios dotenv normalize.css nuxt-start
   "nuxt": "^2.14.3"
 }
 ```
+
+## ESLint and Prettier
+
+```bash
+npm i -D babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-prettier eslint-plugin-vue prettier
+```
+
 
