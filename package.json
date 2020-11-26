@@ -1,0 +1,24 @@
+{
+  "name": "example-autoO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "start": "nuxt-start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nuxt": "^2.14.7"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "dotenv": "^8.2.0",
+    "normalize.css": "^8.0.1",
+    "nuxt-start": "^2.14.7"
+  }
+}
