@@ -1,21 +1,21 @@
 <template>
   <div class="app">
-    <fork-this />
+    <!-- <fork-this /> -->
+    <!-- <navbar /> -->
     <main class="main" role="main">
-      <navbar />
       <nuxt />
     </main>
   </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
-import ForkThis from '@/components/ForkThis.vue';
+// import Navbar from '@/components/Navbar.vue';
+// import ForkThis from '@/components/ForkThis.vue';
 
 export default {
   components: {
-    Navbar,
-    ForkThis,
+    // Navbar,
+    // ForkThis,
   },
 };
 </script>
