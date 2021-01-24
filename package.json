@@ -10,13 +10,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",  
+  "license": "ISC",
   "dependencies": {
     "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.12.2",
     "dotenv": "^8.2.0",
     "normalize.css": "^8.0.1",
-    "nuxt-start": "^2.14.7"
+    "nuxt-start": "^2.14.7",
+    "stylelint": "^13.9.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
