@@ -1,0 +1,20 @@
+$primary: #ffed00;
+$secondary: #4f00ff;
+$black: #000;
+$secondary-black: #333;
+
+// Font Size
+// 상황에 따라 xs, xxs size font 값에 대해 변수 추가 예정
+$font-size-xs: 12px; // 0.75rem;
+$font-size-sm: 14px; // 0.875rem;
+$font-size-md: 16px; // 1rem;
+$font-size-lg: 24px; // 1.5rem;
+$font-size-xl: 32px; // 2rem;
+$font-size-xxl: 48px; // 3rem;
+
+// Text Font Color
+$title: #000;
+$body-text: #000;
+$sub-title: #1f1f1f;
+$sub-body-text: #666;
+$reference: #776; // #776으로 바꾸어도 된다는 피드백을 받음

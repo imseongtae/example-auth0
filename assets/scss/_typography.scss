@@ -1,0 +1,65 @@
+.typo {
+  &.title {
+    font: {
+      size: $font-size-lg;
+      style: normal;
+      weight: 700;
+    }
+    color: #1f1f1f;
+    letter-spacing: -0.05rem;
+    // lineheight 값은 해당 컴포넌트에서 조정해야 함
+  }
+  &.body-text {
+    font: {
+      // 폰트 사이즈 16px로 조정하기
+      size: $font-size-md;
+      weight: 400;
+    }
+    letter-spacing: -0.05rem;
+  }
+
+  &.section-title {
+    font: {
+      size: 17px;
+      weight: 700;
+    }
+    letter-spacing: -0.16px;
+  }
+  &.section-desc {
+    font: {
+      size: 14px;
+      weight: 400;
+    }
+    color: #666;
+    letter-spacing: -0.16px;
+  }
+  &.section-sub-title {
+    font: {
+      size: 14px;
+      weight: 700;
+    }
+    letter-spacing: -0.16px;
+  }
+
+  // Font weight 및 style(normal)
+  &.thin {
+    font-weight: 300;
+  }
+  &.normal {
+    font-weight: 400;
+  }
+  &.bold {
+    font-weight: 700;
+  }
+  &.style-normal {
+    font-style: normal;
+  }
+
+  // Font color
+  &.primary {
+    color: $primary !important;
+  }
+  &.purple {
+    color: $secondary !important;
+  }
+}
