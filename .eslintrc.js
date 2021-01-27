@@ -22,6 +22,19 @@ module.exports = {
     'no-console': 'off',
     'vue/max-attributes-per-line': 'off',
     'vue/singleline-html-element-content-newline': 'off',
+    // 'vue/html-self-closing': [
+    //   'error',
+    //   {
+    //     html: {
+    //       void: 'always',
+    //       normal: 'any',
+    //       component: 'any',
+    //     },
+    //     svg: 'any',
+    //     math: 'any',
+    //   },
+    // ],
+    'vue/html-self-closing': 'off',
     'prettier/prettier': [
       'error',
       {
