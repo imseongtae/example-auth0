@@ -20,7 +20,7 @@ a {
   text-decoration: none;
   font-weight: 400;
   line-height: 30px;
-  transition: border-bottom .2s;
+  transition: border-bottom 0.2s;
   cursor: pointer;
 }
 a:hover {
