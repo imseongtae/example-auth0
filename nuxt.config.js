@@ -31,6 +31,8 @@ export default {
     '@nuxtjs/axios',
     // https://auth.nuxtjs.org
     '@nuxtjs/auth',
+    // scss
+    '@nuxtjs/style-resources',
   ],
   auth: {
     redirect: {
