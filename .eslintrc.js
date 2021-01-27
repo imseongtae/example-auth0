@@ -21,6 +21,7 @@ module.exports = {
     // semi: [2, "never"],
     'no-console': 'off',
     'vue/max-attributes-per-line': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
     'prettier/prettier': [
       'error',
       {
